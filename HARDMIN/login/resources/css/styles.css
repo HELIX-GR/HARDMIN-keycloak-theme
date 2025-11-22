@@ -1,3 +1,23 @@
 .login-pf body {
   background: #56a4cc;
 }
+
+#kc-header-wrapper {
+  /* Hide the text content visually, but keep the element */
+  color: transparent !important;
+  font-size: 0 !important;
+  text-indent: -9999px !important; /* Move text off-screen */
+
+  background: url('../img/logo.png') no-repeat center center;
+
+  /* Set the size of the background image (adjust as needed) */
+  background-size: contain; /* or 200px auto, depending on your logo size */
+
+  /* Ensure the wrapper has enough height to display the logo */
+  height: 100px; /* Adjust this to match your logo's desired height */
+  width: 300px; /* Adjust this for width */
+
+  /* Centering the element itself within its parent #kc-header */
+  margin-left: auto;
+  margin-right: auto;
+}
